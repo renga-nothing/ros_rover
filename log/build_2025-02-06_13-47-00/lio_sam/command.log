@@ -1,0 +1,4 @@
+Invoking command in '/home/xmedia/ros2_foxy/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/lio_sam -- -j4 -l4
+Invoked command in '/home/xmedia/ros2_foxy/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/lio_sam -- -j4 -l4
+Invoking command in '/home/xmedia/ros2_foxy/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/lio_sam
+Invoked command in '/home/xmedia/ros2_foxy/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/lio_sam

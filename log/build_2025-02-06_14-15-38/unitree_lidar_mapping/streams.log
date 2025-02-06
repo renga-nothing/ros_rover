@@ -1,0 +1,93 @@
+[0.051s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/unitree_lidar_mapping -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_mapping
+[0.092s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.505s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.521s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.617s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.007s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.011s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.462s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.746s] -- Found octomap_msgs: 2.0.0 (/opt/ros/foxy/share/octomap_msgs/cmake)
+[1.910s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[2.291s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[2.446s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.193s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.358s] -- The imported target "vtkParseOGLExt" references the file
+[3.358s]    "/usr/bin/vtkParseOGLExt-7.1"
+[3.359s] but this file does not exist.  Possible reasons include:
+[3.359s] * The file was deleted, renamed, or moved to another location.
+[3.359s] * An install or uninstall procedure did not complete successfully.
+[3.359s] * The installation package was faulty and contained
+[3.359s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.359s] but not all the files it references.
+[3.359s] 
+[3.360s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[3.360s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[3.360s] but this file does not exist.  Possible reasons include:
+[3.360s] * The file was deleted, renamed, or moved to another location.
+[3.360s] * An install or uninstall procedure did not complete successfully.
+[3.361s] * The installation package was faulty and contained
+[3.361s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.361s] but not all the files it references.
+[3.361s] 
+[3.361s] -- The imported target "vtk" references the file
+[3.361s]    "/usr/bin/vtk"
+[3.361s] but this file does not exist.  Possible reasons include:
+[3.362s] * The file was deleted, renamed, or moved to another location.
+[3.362s] * An install or uninstall procedure did not complete successfully.
+[3.362s] * The installation package was faulty and contained
+[3.362s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.362s] but not all the files it references.
+[3.362s] 
+[3.362s] -- The imported target "pvtk" references the file
+[3.362s]    "/usr/bin/pvtk"
+[3.362s] but this file does not exist.  Possible reasons include:
+[3.362s] * The file was deleted, renamed, or moved to another location.
+[3.363s] * An install or uninstall procedure did not complete successfully.
+[3.363s] * The installation package was faulty and contained
+[3.363s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.363s] but not all the files it references.
+[3.363s] 
+[3.401s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.409s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[3.442s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.450s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[3.471s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[3.479s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.716s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.875s] -- Configuring done
+[3.971s] -- Generating done
+[4.003s] -- Build files have been written to: /home/xmedia/ros2_foxy/build/unitree_lidar_mapping
+[4.014s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/unitree_lidar_mapping -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_mapping
+[4.018s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_mapping -- -j4 -l4
+[4.079s] [35m[1mScanning dependencies of target lidar_mapping_node[0m
+[4.107s] [ 50%] Built target lidar_imu_tf_node
+[4.153s] [ 75%] [32mBuilding CXX object CMakeFiles/lidar_mapping_node.dir/src/lidar_mapping_node.cpp.o[0m
+[22.988s] [100%] [32m[1mLinking CXX executable lidar_mapping_node[0m
+[23.979s] [100%] Built target lidar_mapping_node
+[23.992s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_mapping -- -j4 -l4
+[23.995s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/unitree_lidar_mapping
+[24.005s] -- Install configuration: "Release"
+[24.006s] -- Execute custom install script
+[24.006s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_mapping_node
+[24.007s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/launch/lidar_mapping_launch.py
+[24.007s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/config/mapping_config.rviz
+[24.007s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_imu_tf_node
+[24.008s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_mapping
+[24.008s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_mapping
+[24.008s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.sh
+[24.009s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.dsv
+[24.009s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.sh
+[24.009s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.dsv
+[24.010s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.bash
+[24.010s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.sh
+[24.010s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.zsh
+[24.011s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.dsv
+[24.011s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.dsv
+[24.022s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/packages/unitree_lidar_mapping
+[24.022s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig.cmake
+[24.022s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig-version.cmake
+[24.023s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.xml
+[24.026s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/unitree_lidar_mapping

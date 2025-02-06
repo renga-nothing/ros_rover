@@ -1,0 +1,1 @@
+/home/xmedia/ros2_foxy/build/unitree_lidar_ros2/ament_cmake_environment_hooks/local_setup.sh

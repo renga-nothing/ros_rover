@@ -1,0 +1,1 @@
+/home/xmedia/ros2_foxy/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

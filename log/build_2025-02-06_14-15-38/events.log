@@ -1,0 +1,784 @@
+[0.000000] (-) TimerEvent: {}
+[0.000369] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000481] (rtabmap_ros) JobQueued: {'identifier': 'rtabmap_ros', 'dependencies': OrderedDict()}
+[0.000622] (unitree_lidar_mapping) JobQueued: {'identifier': 'unitree_lidar_mapping', 'dependencies': OrderedDict()}
+[0.000920] (unitree_lidar_ros2) JobQueued: {'identifier': 'unitree_lidar_ros2', 'dependencies': OrderedDict()}
+[0.001092] (unitree_lidar_sdk) JobQueued: {'identifier': 'unitree_lidar_sdk', 'dependencies': OrderedDict()}
+[0.001292] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.013103] (rtabmap_ros) JobStarted: {'identifier': 'rtabmap_ros'}
+[0.022025] (unitree_lidar_mapping) JobStarted: {'identifier': 'unitree_lidar_mapping'}
+[0.031757] (unitree_lidar_ros2) JobStarted: {'identifier': 'unitree_lidar_ros2'}
+[0.044270] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.046136] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '/home/xmedia/ros2_foxy/src/lio_sam', '-DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/lio_sam'], 'cwd': '/home/xmedia/ros2_foxy/build/lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[0.053848] (rtabmap_ros) JobProgress: {'identifier': 'rtabmap_ros', 'progress': 'cmake'}
+[0.055975] (rtabmap_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/xmedia/ros2_foxy/src/rtabmap_ros', '-DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/rtabmap_ros'], 'cwd': '/home/xmedia/ros2_foxy/build/rtabmap_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/rtabmap_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[0.065976] (unitree_lidar_mapping) JobProgress: {'identifier': 'unitree_lidar_mapping', 'progress': 'cmake'}
+[0.068305] (unitree_lidar_mapping) Command: {'cmd': ['/usr/bin/cmake', '/home/xmedia/ros2_foxy/src/unitree_lidar_mapping', '-DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_mapping'], 'cwd': '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[0.082667] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.084312] (rtabmap_ros) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.088453] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'cmake'}
+[0.090041] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_ros2'], 'cwd': '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[0.100057] (-) TimerEvent: {}
+[0.113550] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.120535] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.126913] (rtabmap_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.127073] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.127293] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.165598] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.177083] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.200121] (-) TimerEvent: {}
+[0.303409] (-) TimerEvent: {}
+[0.404579] (-) TimerEvent: {}
+[0.511412] (-) TimerEvent: {}
+[0.527461] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.543469] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.619234] (rtabmap_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.619475] (-) TimerEvent: {}
+[0.620521] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.627997] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.639464] (lio_sam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.639712] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.648683] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.660634] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.665995] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.672436] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.719606] (-) TimerEvent: {}
+[0.746397] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.755762] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.761246] (rtabmap_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.775654] (rtabmap_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[0.783202] (rtabmap_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/xmedia/ros2_foxy/build/rtabmap_ros\n'}
+[0.788833] (rtabmap_ros) CommandEnded: {'returncode': 0}
+[0.793912] (rtabmap_ros) JobProgress: {'identifier': 'rtabmap_ros', 'progress': 'build'}
+[0.794240] (rtabmap_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xmedia/ros2_foxy/build/rtabmap_ros', '--', '-j4', '-l4'], 'cwd': '/home/xmedia/ros2_foxy/build/rtabmap_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/rtabmap_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[0.819724] (-) TimerEvent: {}
+[0.858531] (rtabmap_ros) CommandEnded: {'returncode': 0}
+[0.861043] (rtabmap_ros) JobProgress: {'identifier': 'rtabmap_ros', 'progress': 'install'}
+[0.878327] (rtabmap_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xmedia/ros2_foxy/build/rtabmap_ros'], 'cwd': '/home/xmedia/ros2_foxy/build/rtabmap_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/rtabmap_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[0.894615] (rtabmap_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.896587] (rtabmap_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.898200] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/ament_index/resource_index/package_run_dependencies/rtabmap_ros\n'}
+[0.899703] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/ament_index/resource_index/parent_prefix_path/rtabmap_ros\n'}
+[0.901171] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.sh\n'}
+[0.902640] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.dsv\n'}
+[0.904263] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/path.sh\n'}
+[0.906019] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.906951] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/path.dsv\n'}
+[0.908782] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.bash\n'}
+[0.910312] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.sh\n'}
+[0.911787] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.zsh\n'}
+[0.913265] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.dsv\n'}
+[0.914681] (rtabmap_ros) StdoutLine: {'line': b'-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/package.dsv\n'}
+[0.919821] (-) TimerEvent: {}
+[0.930605] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/ament_index/resource_index/packages/rtabmap_ros\n'}
+[0.931979] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig.cmake\n'}
+[0.933400] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig-version.cmake\n'}
+[0.934639] (rtabmap_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/package.xml\n'}
+[0.943098] (rtabmap_ros) CommandEnded: {'returncode': 0}
+[0.961751] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.981162] (rtabmap_ros) JobEnded: {'identifier': 'rtabmap_ros', 'rc': 0}
+[0.982337] (unitree_lidar_sdk) JobStarted: {'identifier': 'unitree_lidar_sdk'}
+[0.999157] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'cmake'}
+[1.002045] (unitree_lidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_sdk', '-DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_sdk'], 'cwd': '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam')]), 'shell': False}
+[1.010158] (lio_sam) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.012692] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.020056] (-) TimerEvent: {}
+[1.028156] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.032452] (unitree_lidar_mapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.071865] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.092378] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[1.103768] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/xmedia/ros2_foxy/build/unitree_lidar_sdk\n'}
+[1.114111] (lio_sam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.118210] (unitree_lidar_sdk) CommandEnded: {'returncode': 0}
+[1.119990] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'build'}
+[1.120081] (-) TimerEvent: {}
+[1.120421] (unitree_lidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk', '--', '-j4', '-l4'], 'cwd': '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam')]), 'shell': False}
+[1.121314] (lio_sam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.184610] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.191122] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.224893] (-) TimerEvent: {}
+[1.319406] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 25%] Built target unilidar_publisher_udp\n'}
+[1.324406] (-) TimerEvent: {}
+[1.373190] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 50%] Built target unilidar_subscriber_udp\n'}
+[1.374742] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 75%] Built target example_lidar\n'}
+[1.387544] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target example_lidar_udp\n'}
+[1.417975] (unitree_lidar_sdk) CommandEnded: {'returncode': 0}
+[1.424632] (-) TimerEvent: {}
+[1.432160] (unitree_lidar_sdk) JobEnded: {'identifier': 'unitree_lidar_sdk', 'rc': 0}
+[1.433155] (lio_sam) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.433904] (lio_sam) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.483581] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.524742] (-) TimerEvent: {}
+[1.615359] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.624865] (-) TimerEvent: {}
+[1.725836] (-) TimerEvent: {}
+[1.768108] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found octomap_msgs: 2.0.0 (/opt/ros/foxy/share/octomap_msgs/cmake)\n'}
+[1.827197] (-) TimerEvent: {}
+[1.846925] (lio_sam) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.852163] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[1.927300] (-) TimerEvent: {}
+[1.931933] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[1.981996] (lio_sam) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.027415] (-) TimerEvent: {}
+[2.127225] (lio_sam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[2.128039] (-) TimerEvent: {}
+[2.132868] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.228147] (-) TimerEvent: {}
+[2.289475] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[2.290493] (unitree_lidar_ros2) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[2.291437] (unitree_lidar_ros2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.292245] (unitree_lidar_ros2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.292994] (unitree_lidar_ros2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.293806] (unitree_lidar_ros2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.294677] (unitree_lidar_ros2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.295442] (unitree_lidar_ros2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.296190] (unitree_lidar_ros2) StdoutLine: {'line': b'\n'}
+[2.296932] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[2.297680] (unitree_lidar_ros2) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[2.298518] (unitree_lidar_ros2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.299276] (unitree_lidar_ros2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.300050] (unitree_lidar_ros2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.300853] (unitree_lidar_ros2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.301459] (unitree_lidar_ros2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.301580] (unitree_lidar_ros2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.301683] (unitree_lidar_ros2) StdoutLine: {'line': b'\n'}
+[2.301781] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[2.301894] (unitree_lidar_ros2) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[2.301994] (unitree_lidar_ros2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.302098] (unitree_lidar_ros2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.302205] (unitree_lidar_ros2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.302307] (unitree_lidar_ros2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.302411] (unitree_lidar_ros2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.302516] (unitree_lidar_ros2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.302617] (unitree_lidar_ros2) StdoutLine: {'line': b'\n'}
+[2.302719] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[2.302837] (unitree_lidar_ros2) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[2.302938] (unitree_lidar_ros2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.303040] (unitree_lidar_ros2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.303149] (unitree_lidar_ros2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.303255] (unitree_lidar_ros2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.312753] (unitree_lidar_ros2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.312964] (unitree_lidar_ros2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.313083] (unitree_lidar_ros2) StdoutLine: {'line': b'\n'}
+[2.313187] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)\n'}
+[2.328243] (-) TimerEvent: {}
+[2.332962] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.343535] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.344442] (unitree_lidar_ros2) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[2.345238] (unitree_lidar_ros2) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[2.361987] (unitree_lidar_ros2) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[2.368574] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.377803] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.405295] (unitree_lidar_ros2) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[2.415661] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.425524] (lio_sam) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[2.428334] (-) TimerEvent: {}
+[2.440810] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.441795] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.442836] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.443790] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.444810] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.445855] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.446891] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.447760] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.448606] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.449335] (lio_sam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[2.449992] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.450782] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.451764] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.452814] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.453969] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.456918] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.457785] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.458487] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.458636] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.459980] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.460688] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.462088] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.462892] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.463642] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.464640] (unitree_lidar_ros2) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.468182] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[2.468986] (lio_sam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[2.528435] (-) TimerEvent: {}
+[2.628907] (-) TimerEvent: {}
+[2.645434] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.729014] (-) TimerEvent: {}
+[2.729302] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.760548] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/xmedia/ros2_foxy/build/unitree_lidar_ros2\n'}
+[2.775671] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[2.779887] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'build'}
+[2.780107] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[2.829135] (-) TimerEvent: {}
+[2.915775] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] Built target unitree_lidar_ros2_node\n'}
+[2.929231] (-) TimerEvent: {}
+[2.935160] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[2.937405] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'install'}
+[2.937627] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2'], 'cwd': '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[2.953431] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.953677] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.953808] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node\n'}
+[2.953940] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz\n'}
+[2.954060] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py\n'}
+[2.954177] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2\n'}
+[2.957953] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2\n'}
+[2.959549] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh\n'}
+[2.959696] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv\n'}
+[2.959813] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh\n'}
+[2.959924] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv\n'}
+[2.963445] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash\n'}
+[2.963654] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh\n'}
+[2.963779] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh\n'}
+[2.967416] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv\n'}
+[2.967639] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv\n'}
+[2.983799] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2\n'}
+[2.984019] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake\n'}
+[2.985140] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake\n'}
+[2.985590] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml\n'}
+[2.996937] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[3.039964] (-) TimerEvent: {}
+[3.050151] (unitree_lidar_ros2) JobEnded: {'identifier': 'unitree_lidar_ros2', 'rc': 0}
+[3.140080] (-) TimerEvent: {}
+[3.214888] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[3.222229] (lio_sam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[3.240181] (-) TimerEvent: {}
+[3.258281] (lio_sam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[3.285621] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[3.285854] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[3.307272] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[3.340294] (-) TimerEvent: {}
+[3.380601] (unitree_lidar_mapping) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[3.380755] (unitree_lidar_mapping) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[3.380823] (unitree_lidar_mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.380886] (unitree_lidar_mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.380948] (unitree_lidar_mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.381010] (unitree_lidar_mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.381071] (unitree_lidar_mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.381130] (unitree_lidar_mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.381188] (unitree_lidar_mapping) StdoutLine: {'line': b'\n'}
+[3.382330] (unitree_lidar_mapping) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[3.382449] (unitree_lidar_mapping) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[3.382550] (unitree_lidar_mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.382648] (unitree_lidar_mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.382744] (unitree_lidar_mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.382841] (unitree_lidar_mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.382937] (unitree_lidar_mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.383036] (unitree_lidar_mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.383131] (unitree_lidar_mapping) StdoutLine: {'line': b'\n'}
+[3.383460] (unitree_lidar_mapping) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[3.383577] (unitree_lidar_mapping) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[3.383677] (unitree_lidar_mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.383776] (unitree_lidar_mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.383874] (unitree_lidar_mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.383971] (unitree_lidar_mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.384067] (unitree_lidar_mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.384162] (unitree_lidar_mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.384257] (unitree_lidar_mapping) StdoutLine: {'line': b'\n'}
+[3.384418] (unitree_lidar_mapping) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[3.384522] (unitree_lidar_mapping) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[3.384620] (unitree_lidar_mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.384716] (unitree_lidar_mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.384810] (unitree_lidar_mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.384907] (unitree_lidar_mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.385007] (unitree_lidar_mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.385116] (unitree_lidar_mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.385211] (unitree_lidar_mapping) StdoutLine: {'line': b'\n'}
+[3.422915] (unitree_lidar_mapping) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.431063] (unitree_lidar_mapping) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[3.440397] (-) TimerEvent: {}
+[3.452843] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[3.453712] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[3.454514] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.455428] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.456300] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.457093] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.457835] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.458604] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.459320] (lio_sam) StdoutLine: {'line': b'\n'}
+[3.460063] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[3.460745] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[3.461141] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.461272] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.461399] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.461528] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.461657] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.461772] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.461870] (lio_sam) StdoutLine: {'line': b'\n'}
+[3.461966] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[3.462062] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[3.462158] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.462254] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.462350] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.462448] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.462546] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.462641] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.462737] (lio_sam) StdoutLine: {'line': b'\n'}
+[3.462831] (lio_sam) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[3.462927] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[3.463024] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.463119] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.463228] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.463328] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.463443] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.463541] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.463637] (lio_sam) StdoutLine: {'line': b'\n'}
+[3.463869] (unitree_lidar_mapping) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.472015] (unitree_lidar_mapping) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[3.488498] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.492953] (unitree_lidar_mapping) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[3.496294] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[3.496561] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[3.496739] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[3.500900] (unitree_lidar_mapping) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.513728] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[3.522248] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.529994] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[3.540504] (-) TimerEvent: {}
+[3.547912] (lio_sam) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[3.556053] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.573180] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[3.574563] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[3.574796] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[3.575955] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[3.576777] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[3.577671] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[3.578480] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[3.579232] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[3.579860] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[3.580731] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[3.581560] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[3.582293] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[3.583178] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[3.584065] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[3.584853] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[3.585710] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[3.586786] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[3.588069] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[3.591098] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[3.591372] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[3.592881] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[3.593921] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[3.594869] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[3.596456] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[3.625487] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.43") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic \n'}
+[3.628085] (lio_sam) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include\n'}
+[3.633904] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3  \n'}
+[3.634115] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[3.635679] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp  \n'}
+[3.636086] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp  \n'}
+[3.636928] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP: TRUE   \n'}
+[3.640914] (-) TimerEvent: {}
+[3.664442] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.737798] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[3.741022] (-) TimerEvent: {}
+[3.841497] (-) TimerEvent: {}
+[3.897548] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.941621] (-) TimerEvent: {}
+[3.962317] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.993181] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Generating done\n'}
+[4.024752] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Build files have been written to: /home/xmedia/ros2_foxy/build/unitree_lidar_mapping\n'}
+[4.035932] (unitree_lidar_mapping) CommandEnded: {'returncode': 0}
+[4.037017] (unitree_lidar_mapping) JobProgress: {'identifier': 'unitree_lidar_mapping', 'progress': 'build'}
+[4.037609] (unitree_lidar_mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping', '--', '-j4', '-l4'], 'cwd': '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[4.042314] (-) TimerEvent: {}
+[4.100758] (unitree_lidar_mapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar_mapping_node\x1b[0m\n'}
+[4.128887] (unitree_lidar_mapping) StdoutLine: {'line': b'[ 50%] Built target lidar_imu_tf_node\n'}
+[4.142407] (-) TimerEvent: {}
+[4.175577] (unitree_lidar_mapping) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lidar_mapping_node.dir/src/lidar_mapping_node.cpp.o\x1b[0m\n'}
+[4.244519] (-) TimerEvent: {}
+[4.344825] (-) TimerEvent: {}
+[4.445150] (-) TimerEvent: {}
+[4.487465] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.545257] (-) TimerEvent: {}
+[4.645584] (-) TimerEvent: {}
+[4.701071] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.745609] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.745834] (-) TimerEvent: {}
+[4.746007] (lio_sam) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[4.779874] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.780141] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.780279] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[4.845955] (-) TimerEvent: {}
+[4.946291] (-) TimerEvent: {}
+[5.046632] (-) TimerEvent: {}
+[5.146936] (-) TimerEvent: {}
+[5.247234] (-) TimerEvent: {}
+[5.347547] (-) TimerEvent: {}
+[5.447865] (-) TimerEvent: {}
+[5.515482] (lio_sam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.529729] (lio_sam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.534884] (lio_sam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.542841] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/xmedia/ros2_foxy/src/lio_sam/include/lio_sam\n'}
+[5.543063] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.547772] (lio_sam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.547995] (-) TimerEvent: {}
+[5.548139] (lio_sam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.548933] (lio_sam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.550484] (lio_sam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.551424] (lio_sam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.558132] (lio_sam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.558377] (lio_sam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.559294] (lio_sam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.567017] (lio_sam) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.648099] (-) TimerEvent: {}
+[5.748399] (-) TimerEvent: {}
+[5.848739] (-) TimerEvent: {}
+[5.949040] (-) TimerEvent: {}
+[6.013641] (lio_sam) StdoutLine: {'line': b'-- Generating done\n'}
+[6.049135] (-) TimerEvent: {}
+[6.149427] (-) TimerEvent: {}
+[6.249728] (-) TimerEvent: {}
+[6.329865] (lio_sam) StdoutLine: {'line': b'-- Build files have been written to: /home/xmedia/ros2_foxy/build/lio_sam\n'}
+[6.349832] (-) TimerEvent: {}
+[6.361756] (lio_sam) CommandEnded: {'returncode': 0}
+[6.363287] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[6.364310] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xmedia/ros2_foxy/build/lio_sam', '--', '-j4', '-l4'], 'cwd': '/home/xmedia/ros2_foxy/build/lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[6.457379] (lio_sam) StdoutLine: {'line': b'[  8%] Built target lio_sam__rosidl_generator_c\n'}
+[6.457664] (-) TimerEvent: {}
+[6.471603] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target lio_sam__cpp\n'}
+[6.528552] (lio_sam) StdoutLine: {'line': b'[ 19%] Built target lio_sam__rosidl_typesupport_c\n'}
+[6.531981] (lio_sam) StdoutLine: {'line': b'[ 27%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[6.534959] (lio_sam) StdoutLine: {'line': b'[ 36%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[6.551953] (lio_sam) StdoutLine: {'line': b'[ 44%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[6.557779] (-) TimerEvent: {}
+[6.586252] (lio_sam) StdoutLine: {'line': b'[ 53%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[6.611044] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[6.656444] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam\n'}
+[6.658515] (-) TimerEvent: {}
+[6.729389] (lio_sam) StdoutLine: {'line': b'[ 63%] Built target lio_sam__py\n'}
+[6.758666] (-) TimerEvent: {}
+[6.811628] (lio_sam) StdoutLine: {'line': b'[ 68%] Built target lio_sam_mapOptimization\n'}
+[6.858778] (-) TimerEvent: {}
+[6.894040] (lio_sam) StdoutLine: {'line': b'[ 72%] Built target lio_sam_imuPreintegration\n'}
+[6.895587] (lio_sam) StdoutLine: {'line': b'[ 76%] Built target lio_sam_featureExtraction\n'}
+[6.920728] (lio_sam) StdoutLine: {'line': b'[ 82%] Built target lio_sam__python\n'}
+[6.937820] (lio_sam) StdoutLine: {'line': b'[ 87%] Built target lio_sam_imageProjection\n'}
+[6.958884] (-) TimerEvent: {}
+[6.995656] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[7.006749] (lio_sam) StdoutLine: {'line': b'[ 95%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[7.012347] (lio_sam) StdoutLine: {'line': b'[100%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.035704] (lio_sam) CommandEnded: {'returncode': 0}
+[7.037392] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'install'}
+[7.037480] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xmedia/ros2_foxy/build/lio_sam'], 'cwd': '/home/xmedia/ros2_foxy/build/lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[7.056298] (lio_sam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[7.060935] (lio_sam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.061202] (-) TimerEvent: {}
+[7.061951] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam\n'}
+[7.062188] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/cloud_info.h\n'}
+[7.062372] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__functions.h\n'}
+[7.062516] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.h\n'}
+[7.062675] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.h\n'}
+[7.062797] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.062949] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__functions.h\n'}
+[7.063161] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.h\n'}
+[7.063310] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.h\n'}
+[7.063474] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/save_map.h\n'}
+[7.063646] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/library_path.sh\n'}
+[7.063911] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/library_path.dsv\n'}
+[7.064947] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[7.065198] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.065462] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[7.066073] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[7.068196] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.068468] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.068601] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.068720] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.069183] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[7.069437] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.070014] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[7.070781] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/cloud_info.hpp\n'}
+[7.071070] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__builder.hpp\n'}
+[7.073600] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.hpp\n'}
+[7.073944] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__traits.hpp\n'}
+[7.074981] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.hpp\n'}
+[7.075293] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.075517] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__builder.hpp\n'}
+[7.075719] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.hpp\n'}
+[7.075874] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__traits.hpp\n'}
+[7.076053] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.hpp\n'}
+[7.076241] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/save_map.hpp\n'}
+[7.077056] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.077288] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.077753] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/pythonpath.sh\n'}
+[7.078181] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/pythonpath.dsv\n'}
+[7.078630] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py\n'}
+[7.079387] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/__init__.py\n'}
+[7.079667] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/_cloud_info.py\n'}
+[7.080523] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/__init__.py\n'}
+[7.080779] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/_save_map.py\n'}
+[7.081414] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.082009] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.082595] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.083162] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__python.so\n'}
+[7.083632] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/msg/CloudInfo.idl\n'}
+[7.084028] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/srv/SaveMap.idl\n'}
+[7.084415] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/msg/CloudInfo.msg\n'}
+[7.084820] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/srv/SaveMap.srv\n'}
+[7.085261] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg\n'}
+[7.085769] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg\n'}
+[7.086420] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//launch/run.launch.py\n'}
+[7.087575] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/demo.gif\n'}
+[7.091001] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/device-boat.png\n'}
+[7.091257] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png\n'}
+[7.091461] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/device-hand.png\n'}
+[7.091606] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/device-jackal.png\n'}
+[7.091753] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif\n'}
+[7.091926] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif\n'}
+[7.092127] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/imu-transform.png\n'}
+[7.092261] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif\n'}
+[7.092449] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/kitti-map.png\n'}
+[7.092572] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md\n'}
+[7.092761] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py\n'}
+[7.092907] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif\n'}
+[7.093093] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif\n'}
+[7.093354] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif\n'}
+[7.093554] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg\n'}
+[7.093689] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/paper.pdf\n'}
+[7.093815] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/system.png\n'}
+[7.093934] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/params.yaml\n'}
+[7.094052] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/robot.urdf.xacro\n'}
+[7.094244] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/rviz2.rviz\n'}
+[7.094370] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/lio_sam/lio_sam_imageProjection\n'}
+[7.094839] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration\n'}
+[7.095495] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction\n'}
+[7.096119] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization\n'}
+[7.096828] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/utility.hpp\n'}
+[7.097262] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam\n'}
+[7.097689] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam\n'}
+[7.098111] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh\n'}
+[7.098509] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv\n'}
+[7.098994] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/path.sh\n'}
+[7.099400] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/path.dsv\n'}
+[7.099823] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/local_setup.bash\n'}
+[7.100212] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/local_setup.sh\n'}
+[7.100605] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/local_setup.zsh\n'}
+[7.101005] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/local_setup.dsv\n'}
+[7.101318] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/package.dsv\n'}
+[7.118097] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/ament_index/resource_index/packages/lio_sam\n'}
+[7.118786] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake\n'}
+[7.119042] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.119388] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.120072] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.120325] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.120694] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.121192] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.121627] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake\n'}
+[7.121931] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake\n'}
+[7.122398] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/package.xml\n'}
+[7.122897] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so\n'}
+[7.123904] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so\n'}
+[7.124714] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so\n'}
+[7.125094] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[7.125637] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so\n'}
+[7.160300] (lio_sam) StdoutLine: {'line': b"Compiling '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py'...\n"}
+[7.161304] (-) TimerEvent: {}
+[7.164900] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport.cmake\n'}
+[7.165200] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport-release.cmake\n'}
+[7.165397] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.165618] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[7.167800] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake\n'}
+[7.168031] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake\n'}
+[7.168183] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cppExport.cmake\n'}
+[7.168797] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.168944] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[7.169069] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake\n'}
+[7.169196] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake\n'}
+[7.170787] (lio_sam) CommandEnded: {'returncode': 0}
+[7.206646] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 0}
+[7.261415] (-) TimerEvent: {}
+[7.361727] (-) TimerEvent: {}
+[7.462086] (-) TimerEvent: {}
+[7.562368] (-) TimerEvent: {}
+[7.662691] (-) TimerEvent: {}
+[7.762994] (-) TimerEvent: {}
+[7.863261] (-) TimerEvent: {}
+[7.963529] (-) TimerEvent: {}
+[8.063797] (-) TimerEvent: {}
+[8.164068] (-) TimerEvent: {}
+[8.264344] (-) TimerEvent: {}
+[8.364622] (-) TimerEvent: {}
+[8.464902] (-) TimerEvent: {}
+[8.565185] (-) TimerEvent: {}
+[8.665466] (-) TimerEvent: {}
+[8.765747] (-) TimerEvent: {}
+[8.866030] (-) TimerEvent: {}
+[8.966313] (-) TimerEvent: {}
+[9.066596] (-) TimerEvent: {}
+[9.166884] (-) TimerEvent: {}
+[9.267168] (-) TimerEvent: {}
+[9.367429] (-) TimerEvent: {}
+[9.467675] (-) TimerEvent: {}
+[9.567949] (-) TimerEvent: {}
+[9.668227] (-) TimerEvent: {}
+[9.768509] (-) TimerEvent: {}
+[9.868790] (-) TimerEvent: {}
+[9.969075] (-) TimerEvent: {}
+[10.069354] (-) TimerEvent: {}
+[10.169637] (-) TimerEvent: {}
+[10.269971] (-) TimerEvent: {}
+[10.370285] (-) TimerEvent: {}
+[10.470617] (-) TimerEvent: {}
+[10.570957] (-) TimerEvent: {}
+[10.671277] (-) TimerEvent: {}
+[10.771620] (-) TimerEvent: {}
+[10.871953] (-) TimerEvent: {}
+[10.972288] (-) TimerEvent: {}
+[11.072610] (-) TimerEvent: {}
+[11.172959] (-) TimerEvent: {}
+[11.273277] (-) TimerEvent: {}
+[11.373583] (-) TimerEvent: {}
+[11.473904] (-) TimerEvent: {}
+[11.574213] (-) TimerEvent: {}
+[11.674499] (-) TimerEvent: {}
+[11.774761] (-) TimerEvent: {}
+[11.875085] (-) TimerEvent: {}
+[11.975394] (-) TimerEvent: {}
+[12.075697] (-) TimerEvent: {}
+[12.175990] (-) TimerEvent: {}
+[12.276284] (-) TimerEvent: {}
+[12.376583] (-) TimerEvent: {}
+[12.476880] (-) TimerEvent: {}
+[12.577178] (-) TimerEvent: {}
+[12.677480] (-) TimerEvent: {}
+[12.777787] (-) TimerEvent: {}
+[12.878086] (-) TimerEvent: {}
+[12.978388] (-) TimerEvent: {}
+[13.078690] (-) TimerEvent: {}
+[13.178990] (-) TimerEvent: {}
+[13.279299] (-) TimerEvent: {}
+[13.379614] (-) TimerEvent: {}
+[13.479914] (-) TimerEvent: {}
+[13.580197] (-) TimerEvent: {}
+[13.680491] (-) TimerEvent: {}
+[13.780798] (-) TimerEvent: {}
+[13.881097] (-) TimerEvent: {}
+[13.981409] (-) TimerEvent: {}
+[14.081717] (-) TimerEvent: {}
+[14.182024] (-) TimerEvent: {}
+[14.282322] (-) TimerEvent: {}
+[14.382641] (-) TimerEvent: {}
+[14.482944] (-) TimerEvent: {}
+[14.583251] (-) TimerEvent: {}
+[14.683574] (-) TimerEvent: {}
+[14.783882] (-) TimerEvent: {}
+[14.884183] (-) TimerEvent: {}
+[14.984487] (-) TimerEvent: {}
+[15.084785] (-) TimerEvent: {}
+[15.185092] (-) TimerEvent: {}
+[15.285396] (-) TimerEvent: {}
+[15.385696] (-) TimerEvent: {}
+[15.486007] (-) TimerEvent: {}
+[15.586316] (-) TimerEvent: {}
+[15.686608] (-) TimerEvent: {}
+[15.786943] (-) TimerEvent: {}
+[15.887193] (-) TimerEvent: {}
+[15.987469] (-) TimerEvent: {}
+[16.087789] (-) TimerEvent: {}
+[16.188104] (-) TimerEvent: {}
+[16.288412] (-) TimerEvent: {}
+[16.388759] (-) TimerEvent: {}
+[16.489108] (-) TimerEvent: {}
+[16.589414] (-) TimerEvent: {}
+[16.689710] (-) TimerEvent: {}
+[16.790028] (-) TimerEvent: {}
+[16.890331] (-) TimerEvent: {}
+[16.990636] (-) TimerEvent: {}
+[17.090932] (-) TimerEvent: {}
+[17.191267] (-) TimerEvent: {}
+[17.291562] (-) TimerEvent: {}
+[17.391839] (-) TimerEvent: {}
+[17.492119] (-) TimerEvent: {}
+[17.592387] (-) TimerEvent: {}
+[17.692672] (-) TimerEvent: {}
+[17.792953] (-) TimerEvent: {}
+[17.893230] (-) TimerEvent: {}
+[17.993503] (-) TimerEvent: {}
+[18.093778] (-) TimerEvent: {}
+[18.194053] (-) TimerEvent: {}
+[18.294333] (-) TimerEvent: {}
+[18.394615] (-) TimerEvent: {}
+[18.494886] (-) TimerEvent: {}
+[18.595168] (-) TimerEvent: {}
+[18.695429] (-) TimerEvent: {}
+[18.795697] (-) TimerEvent: {}
+[18.895972] (-) TimerEvent: {}
+[18.996250] (-) TimerEvent: {}
+[19.096521] (-) TimerEvent: {}
+[19.196806] (-) TimerEvent: {}
+[19.297030] (-) TimerEvent: {}
+[19.397286] (-) TimerEvent: {}
+[19.498207] (-) TimerEvent: {}
+[19.598527] (-) TimerEvent: {}
+[19.698854] (-) TimerEvent: {}
+[19.799108] (-) TimerEvent: {}
+[19.899397] (-) TimerEvent: {}
+[19.999663] (-) TimerEvent: {}
+[20.099930] (-) TimerEvent: {}
+[20.200175] (-) TimerEvent: {}
+[20.300458] (-) TimerEvent: {}
+[20.400728] (-) TimerEvent: {}
+[20.501008] (-) TimerEvent: {}
+[20.601257] (-) TimerEvent: {}
+[20.701534] (-) TimerEvent: {}
+[20.801817] (-) TimerEvent: {}
+[20.902096] (-) TimerEvent: {}
+[21.002379] (-) TimerEvent: {}
+[21.102660] (-) TimerEvent: {}
+[21.202942] (-) TimerEvent: {}
+[21.303241] (-) TimerEvent: {}
+[21.403530] (-) TimerEvent: {}
+[21.503830] (-) TimerEvent: {}
+[21.604128] (-) TimerEvent: {}
+[21.704423] (-) TimerEvent: {}
+[21.804724] (-) TimerEvent: {}
+[21.905020] (-) TimerEvent: {}
+[22.005321] (-) TimerEvent: {}
+[22.105610] (-) TimerEvent: {}
+[22.205904] (-) TimerEvent: {}
+[22.306204] (-) TimerEvent: {}
+[22.406505] (-) TimerEvent: {}
+[22.506809] (-) TimerEvent: {}
+[22.607105] (-) TimerEvent: {}
+[22.707408] (-) TimerEvent: {}
+[22.807711] (-) TimerEvent: {}
+[22.908008] (-) TimerEvent: {}
+[23.008305] (-) TimerEvent: {}
+[23.010102] (unitree_lidar_mapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_mapping_node\x1b[0m\n'}
+[23.108430] (-) TimerEvent: {}
+[23.208716] (-) TimerEvent: {}
+[23.309019] (-) TimerEvent: {}
+[23.409327] (-) TimerEvent: {}
+[23.509643] (-) TimerEvent: {}
+[23.609941] (-) TimerEvent: {}
+[23.710241] (-) TimerEvent: {}
+[23.810561] (-) TimerEvent: {}
+[23.910877] (-) TimerEvent: {}
+[24.001632] (unitree_lidar_mapping) StdoutLine: {'line': b'[100%] Built target lidar_mapping_node\n'}
+[24.010980] (-) TimerEvent: {}
+[24.013901] (unitree_lidar_mapping) CommandEnded: {'returncode': 0}
+[24.014775] (unitree_lidar_mapping) JobProgress: {'identifier': 'unitree_lidar_mapping', 'progress': 'install'}
+[24.015463] (unitree_lidar_mapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping'], 'cwd': '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTSAM_DIR', '/usr/lib/cmake/GTSAM'), ('LANGUAGE', 'en_IN:en'), ('USER', 'xmedia'), ('SSH_AGENT_PID', '913'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xmedia'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '766'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xmedia/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xmedia'), ('JOURNAL_STREAM', '8:30633'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xmedia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xmedia:@/tmp/.ICE-unix/951,unix/xmedia:/tmp/.ICE-unix/951'), ('INVOCATION_ID', 'dfe089d2740d49ed8bf47f0598554f63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce170e_5340_46d3_a19a_a9bbf2bdc7ca'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7db6e7ce3f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=706a30059982000877ee9f6d67a430ee'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xmedia/ros2_foxy/install/unitree_lidar_ros2:/home/xmedia/ros2_foxy/install/unitree_lidar_mapping:/home/xmedia/ros2_foxy/install/rtabmap_ros:/home/xmedia/ros2_foxy/install/lio_sam:/opt/ros/foxy')]), 'shell': False}
+[24.027241] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[24.027762] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[24.028240] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_mapping_node\n'}
+[24.028765] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/launch/lidar_mapping_launch.py\n'}
+[24.029151] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/config/mapping_config.rviz\n'}
+[24.029574] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_imu_tf_node\n'}
+[24.029887] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_mapping\n'}
+[24.030189] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_mapping\n'}
+[24.030590] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.sh\n'}
+[24.030907] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.dsv\n'}
+[24.031356] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.sh\n'}
+[24.031759] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.dsv\n'}
+[24.032036] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.bash\n'}
+[24.032311] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.sh\n'}
+[24.032589] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.zsh\n'}
+[24.032866] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.dsv\n'}
+[24.033096] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.dsv\n'}
+[24.044036] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/packages/unitree_lidar_mapping\n'}
+[24.044280] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig.cmake\n'}
+[24.044527] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig-version.cmake\n'}
+[24.044939] (unitree_lidar_mapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.xml\n'}
+[24.047833] (unitree_lidar_mapping) CommandEnded: {'returncode': 0}
+[24.064956] (unitree_lidar_mapping) JobEnded: {'identifier': 'unitree_lidar_mapping', 'rc': 0}
+[24.066324] (-) EventReactorShutdown: {}

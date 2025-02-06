@@ -1,0 +1,7 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xmedia/ros2_foxy/build/unitree_lidar_sdk
+[ 25%] Built target unilidar_publisher_udp
+[ 50%] Built target unilidar_subscriber_udp
+[ 75%] Built target example_lidar
+[100%] Built target example_lidar_udp

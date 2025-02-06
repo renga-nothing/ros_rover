@@ -1,0 +1,6 @@
+Invoking command in '/home/xmedia/ros2_foxy/build/rtabmap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/rtabmap_ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/rtabmap_ros
+Invoked command in '/home/xmedia/ros2_foxy/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/rtabmap_ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/rtabmap_ros
+Invoking command in '/home/xmedia/ros2_foxy/build/rtabmap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/rtabmap_ros -- -j4 -l4
+Invoked command in '/home/xmedia/ros2_foxy/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/rtabmap_ros -- -j4 -l4
+Invoking command in '/home/xmedia/ros2_foxy/build/rtabmap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/rtabmap_ros
+Invoked command in '/home/xmedia/ros2_foxy/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/rtabmap_ros

@@ -1,0 +1,23 @@
+[ 50%] Built target lidar_imu_tf_node
+[100%] Built target lidar_mapping_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_mapping_node
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/launch/lidar_mapping_launch.py
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/config/mapping_config.rviz
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_imu_tf_node
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_mapping
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_mapping
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.sh
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.dsv
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.bash
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.sh
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.zsh
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.dsv
+-- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.dsv
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/packages/unitree_lidar_mapping
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig.cmake
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig-version.cmake
+-- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.xml

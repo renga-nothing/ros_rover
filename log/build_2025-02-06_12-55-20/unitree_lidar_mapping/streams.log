@@ -1,0 +1,158 @@
+[0.035s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/unitree_lidar_mapping -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_mapping
+[0.143s] -- The C compiler identification is GNU 9.4.0
+[0.242s] -- The CXX compiler identification is GNU 9.4.0
+[0.260s] -- Check for working C compiler: /usr/bin/cc
+[0.425s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.426s] -- Detecting C compiler ABI info
+[0.564s] -- Detecting C compiler ABI info - done
+[0.607s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++
+[0.777s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.778s] -- Detecting CXX compiler ABI info
+[0.960s] -- Detecting CXX compiler ABI info - done
+[0.996s] -- Detecting CXX compile features
+[1.000s] -- Detecting CXX compile features - done
+[1.004s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.057s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.464s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.557s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.724s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.778s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.034s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.034s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.034s] -- Looking for pthread.h
+[2.182s] -- Looking for pthread.h - found
+[2.182s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.325s] -- Looking for pthread_create in pthreads
+[2.448s] -- Looking for pthread_create in pthreads - not found
+[2.448s] -- Looking for pthread_create in pthread
+[2.655s] -- Looking for pthread_create in pthread - found
+[2.657s] -- Found Threads: TRUE  
+[3.076s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.388s] -- Found octomap_msgs: 2.0.0 (/opt/ros/foxy/share/octomap_msgs/cmake)
+[3.681s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[4.463s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[4.696s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.700s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.625s] -- Checking for module 'eigen3'
+[5.653s] --   Found eigen3, version 3.3.7
+[5.716s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.716s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[5.857s] -- Checking for module 'flann'
+[5.887s] --   Found flann, version 1.9.1
+[5.967s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[6.099s] -- The imported target "vtkParseOGLExt" references the file
+[6.099s]    "/usr/bin/vtkParseOGLExt-7.1"
+[6.099s] but this file does not exist.  Possible reasons include:
+[6.099s] * The file was deleted, renamed, or moved to another location.
+[6.099s] * An install or uninstall procedure did not complete successfully.
+[6.099s] * The installation package was faulty and contained
+[6.100s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[6.100s] but not all the files it references.
+[6.100s] 
+[6.101s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[6.101s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[6.101s] but this file does not exist.  Possible reasons include:
+[6.101s] * The file was deleted, renamed, or moved to another location.
+[6.101s] * An install or uninstall procedure did not complete successfully.
+[6.102s] * The installation package was faulty and contained
+[6.102s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[6.102s] but not all the files it references.
+[6.102s] 
+[6.104s] -- The imported target "vtk" references the file
+[6.104s]    "/usr/bin/vtk"
+[6.104s] but this file does not exist.  Possible reasons include:
+[6.104s] * The file was deleted, renamed, or moved to another location.
+[6.105s] * An install or uninstall procedure did not complete successfully.
+[6.105s] * The installation package was faulty and contained
+[6.105s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[6.105s] but not all the files it references.
+[6.105s] 
+[6.106s] -- The imported target "pvtk" references the file
+[6.106s]    "/usr/bin/pvtk"
+[6.106s] but this file does not exist.  Possible reasons include:
+[6.107s] * The file was deleted, renamed, or moved to another location.
+[6.107s] * An install or uninstall procedure did not complete successfully.
+[6.107s] * The installation package was faulty and contained
+[6.107s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[6.107s] but not all the files it references.
+[6.108s] 
+[6.158s] -- Checking for module 'libusb-1.0'
+[6.191s] --   Found libusb-1.0, version 1.0.23
+[6.299s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.418s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[6.539s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[6.565s] -- Found libusb-1.0: /usr/include  
+[6.578s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[6.589s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[6.648s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[6.648s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[6.660s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[6.676s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.678s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[6.679s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.681s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.682s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.684s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.684s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[6.685s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[6.686s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.688s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.690s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.692s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.695s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.697s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.698s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.700s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.702s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.703s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.705s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.707s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.709s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[6.709s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[6.711s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.712s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.930s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[7.144s] -- Configuring done
+[7.248s] -- Generating done
+[7.290s] -- Build files have been written to: /home/xmedia/ros2_foxy/build/unitree_lidar_mapping
+[7.313s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/unitree_lidar_mapping -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_mapping
+[7.314s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_mapping -- -j4 -l4
+[7.380s] [35m[1mScanning dependencies of target lidar_imu_tf_node[0m
+[7.380s] [35m[1mScanning dependencies of target lidar_mapping_node[0m
+[7.545s] [ 25%] [32mBuilding CXX object CMakeFiles/lidar_mapping_node.dir/src/lidar_mapping_node.cpp.o[0m
+[7.546s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_imu_tf_node.dir/src/lidar_imu_tf_node.cpp.o[0m
+[24.715s] [ 75%] [32m[1mLinking CXX executable lidar_imu_tf_node[0m
+[25.670s] [ 75%] Built target lidar_imu_tf_node
+[50.392s] [100%] [32m[1mLinking CXX executable lidar_mapping_node[0m
+[53.008s] [100%] Built target lidar_mapping_node
+[53.042s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_mapping -- -j4 -l4
+[53.044s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/unitree_lidar_mapping
+[53.074s] -- Install configuration: "Release"
+[53.077s] -- Execute custom install script
+[53.085s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_mapping_node
+[53.131s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/launch/lidar_mapping_launch.py
+[53.173s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/config/mapping_config.rviz
+[53.207s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_imu_tf_node
+[53.242s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_mapping
+[53.285s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_mapping
+[53.313s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.sh
+[53.353s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.dsv
+[53.385s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.sh
+[53.424s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.dsv
+[53.464s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.bash
+[53.500s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.sh
+[53.533s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.zsh
+[53.569s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.dsv
+[53.602s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.dsv
+[53.638s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/packages/unitree_lidar_mapping
+[53.673s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig.cmake
+[53.705s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig-version.cmake
+[53.719s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.xml
+[53.739s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/unitree_lidar_mapping

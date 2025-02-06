@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xmedia/ros2_foxy/build/rtabmap_ros
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/ament_index/resource_index/package_run_dependencies/rtabmap_ros
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/ament_index/resource_index/parent_prefix_path/rtabmap_ros
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/path.sh
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/path.dsv
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.bash
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.sh
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.zsh
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.dsv
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/package.dsv
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/ament_index/resource_index/packages/rtabmap_ros
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig.cmake
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig-version.cmake
+-- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/package.xml

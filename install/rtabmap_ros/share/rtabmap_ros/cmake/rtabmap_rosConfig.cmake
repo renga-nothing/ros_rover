@@ -1,0 +1,1 @@
+/home/xmedia/ros2_foxy/build/rtabmap_ros/ament_cmake_core/rtabmap_rosConfig.cmake

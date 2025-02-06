@@ -1,0 +1,111 @@
+[0.061s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_ros2
+[0.095s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.134s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.617s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.725s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.982s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.153s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.160s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.584s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.821s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[2.102s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.258s] -- The imported target "vtkParseOGLExt" references the file
+[2.259s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.260s] but this file does not exist.  Possible reasons include:
+[2.261s] * The file was deleted, renamed, or moved to another location.
+[2.262s] * An install or uninstall procedure did not complete successfully.
+[2.263s] * The installation package was faulty and contained
+[2.263s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.264s] but not all the files it references.
+[2.265s] 
+[2.266s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.267s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.267s] but this file does not exist.  Possible reasons include:
+[2.268s] * The file was deleted, renamed, or moved to another location.
+[2.269s] * An install or uninstall procedure did not complete successfully.
+[2.270s] * The installation package was faulty and contained
+[2.270s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.270s] but not all the files it references.
+[2.270s] 
+[2.270s] -- The imported target "vtk" references the file
+[2.270s]    "/usr/bin/vtk"
+[2.270s] but this file does not exist.  Possible reasons include:
+[2.270s] * The file was deleted, renamed, or moved to another location.
+[2.270s] * An install or uninstall procedure did not complete successfully.
+[2.271s] * The installation package was faulty and contained
+[2.271s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.271s] but not all the files it references.
+[2.271s] 
+[2.271s] -- The imported target "pvtk" references the file
+[2.271s]    "/usr/bin/pvtk"
+[2.271s] but this file does not exist.  Possible reasons include:
+[2.271s] * The file was deleted, renamed, or moved to another location.
+[2.271s] * An install or uninstall procedure did not complete successfully.
+[2.272s] * The installation package was faulty and contained
+[2.281s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.281s] but not all the files it references.
+[2.281s] 
+[2.302s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.312s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.313s] ** WARNING ** io features related to pcap will be disabled
+[2.314s] ** WARNING ** io features related to png will be disabled
+[2.331s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.337s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.347s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.374s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.385s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.410s] -- looking for PCL_COMMON
+[2.411s] -- looking for PCL_KDTREE
+[2.412s] -- looking for PCL_OCTREE
+[2.413s] -- looking for PCL_SEARCH
+[2.414s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.415s] -- looking for PCL_FILTERS
+[2.416s] -- looking for PCL_2D
+[2.417s] -- looking for PCL_GEOMETRY
+[2.417s] -- looking for PCL_IO
+[2.418s] -- looking for PCL_FEATURES
+[2.419s] -- looking for PCL_ML
+[2.420s] -- looking for PCL_SEGMENTATION
+[2.421s] -- looking for PCL_VISUALIZATION
+[2.422s] -- looking for PCL_SURFACE
+[2.426s] -- looking for PCL_REGISTRATION
+[2.427s] -- looking for PCL_KEYPOINTS
+[2.427s] -- looking for PCL_TRACKING
+[2.427s] -- looking for PCL_RECOGNITION
+[2.429s] -- looking for PCL_STEREO
+[2.429s] -- looking for PCL_APPS
+[2.430s] -- looking for PCL_IN_HAND_SCANNER
+[2.431s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.432s] -- looking for PCL_OUTOFCORE
+[2.433s] -- looking for PCL_PEOPLE
+[2.614s] -- Configuring done
+[2.698s] -- Generating done
+[2.729s] -- Build files have been written to: /home/xmedia/ros2_foxy/build/unitree_lidar_ros2
+[2.745s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_ros2
+[2.749s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_ros2 -- -j4 -l4
+[2.885s] [100%] Built target unitree_lidar_ros2_node
+[2.905s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_ros2 -- -j4 -l4
+[2.907s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/unitree_lidar_ros2
+[2.922s] -- Install configuration: "Release"
+[2.922s] -- Execute custom install script
+[2.922s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node
+[2.922s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz
+[2.922s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py
+[2.922s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2
+[2.928s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2
+[2.928s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh
+[2.928s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv
+[2.928s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh
+[2.928s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv
+[2.932s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash
+[2.932s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh
+[2.932s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh
+[2.936s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv
+[2.936s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv
+[2.952s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2
+[2.952s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake
+[2.953s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake
+[2.954s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml
+[2.965s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/unitree_lidar_ros2

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "unitree_lidar_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-45b6ae1fe240e16bae7a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_lidar_ros2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_lidar_ros2_node-Release-5600bd13367065675653.json",
+					"name" : "unitree_lidar_ros2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_lidar_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_lidar_ros2_uninstall-Release-f9dd6aba524a25a68eb8.json",
+					"name" : "unitree_lidar_ros2_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xmedia/ros2_foxy/build/unitree_lidar_ros2",
+		"source" : "/home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

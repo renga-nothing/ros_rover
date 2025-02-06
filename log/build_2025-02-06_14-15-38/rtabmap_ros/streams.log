@@ -1,0 +1,29 @@
+[0.047s] Invoking command in '/home/xmedia/ros2_foxy/build/rtabmap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/rtabmap_ros -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/rtabmap_ros
+[0.072s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.606s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.749s] -- Configuring done
+[0.762s] -- Generating done
+[0.770s] -- Build files have been written to: /home/xmedia/ros2_foxy/build/rtabmap_ros
+[0.776s] Invoked command in '/home/xmedia/ros2_foxy/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/rtabmap_ros -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/rtabmap_ros
+[0.782s] Invoking command in '/home/xmedia/ros2_foxy/build/rtabmap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/rtabmap_ros -- -j4 -l4
+[0.847s] Invoked command in '/home/xmedia/ros2_foxy/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/rtabmap_ros -- -j4 -l4
+[0.866s] Invoking command in '/home/xmedia/ros2_foxy/build/rtabmap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/rtabmap_ros
+[0.882s] -- Install configuration: "Release"
+[0.884s] -- Execute custom install script
+[0.885s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/ament_index/resource_index/package_run_dependencies/rtabmap_ros
+[0.887s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/ament_index/resource_index/parent_prefix_path/rtabmap_ros
+[0.888s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.sh
+[0.890s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.dsv
+[0.892s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/path.sh
+[0.894s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/environment/path.dsv
+[0.896s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.bash
+[0.898s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.sh
+[0.899s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.zsh
+[0.901s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/local_setup.dsv
+[0.902s] -- Symlinking: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/package.dsv
+[0.918s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/ament_index/resource_index/packages/rtabmap_ros
+[0.919s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig.cmake
+[0.921s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig-version.cmake
+[0.922s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/rtabmap_ros/share/rtabmap_ros/package.xml
+[0.930s] Invoked command in '/home/xmedia/ros2_foxy/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/rtabmap_ros

@@ -1,0 +1,37 @@
+[0.029s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk': /usr/bin/cmake /home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_sdk -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_sdk
+[0.161s] -- The C compiler identification is GNU 9.4.0
+[0.308s] -- The CXX compiler identification is GNU 9.4.0
+[0.320s] -- Check for working C compiler: /usr/bin/cc
+[0.461s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.463s] -- Detecting C compiler ABI info
+[0.697s] -- Detecting C compiler ABI info - done
+[0.747s] -- Detecting C compile features
+[0.748s] -- Detecting C compile features - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++
+[0.962s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.964s] -- Detecting CXX compiler ABI info
+[1.135s] -- Detecting CXX compiler ABI info - done
+[1.167s] -- Detecting CXX compile features
+[1.169s] -- Detecting CXX compile features - done
+[1.176s] -- Configuring done
+[1.214s] -- Generating done
+[1.230s] -- Build files have been written to: /home/xmedia/ros2_foxy/build/unitree_lidar_sdk
+[1.237s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake /home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_sdk -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/unitree_lidar_sdk
+[1.238s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk': /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_sdk -- -j4 -l4
+[1.301s] [35m[1mScanning dependencies of target unilidar_subscriber_udp[0m
+[1.320s] [35m[1mScanning dependencies of target unilidar_publisher_udp[0m
+[1.351s] [ 12%] [32mBuilding CXX object CMakeFiles/unilidar_publisher_udp.dir/examples/unilidar_publisher_udp.cpp.o[0m
+[1.354s] [35m[1mScanning dependencies of target example_lidar_udp[0m
+[1.356s] [ 25%] [32mBuilding CXX object CMakeFiles/unilidar_subscriber_udp.dir/examples/unilidar_subscriber_udp.cpp.o[0m
+[1.376s] [35m[1mScanning dependencies of target example_lidar[0m
+[1.390s] [ 37%] [32mBuilding CXX object CMakeFiles/example_lidar_udp.dir/examples/example_lidar_udp.cpp.o[0m
+[1.435s] [ 50%] [32mBuilding CXX object CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o[0m
+[2.622s] [ 62%] [32m[1mLinking CXX executable /home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_publisher_udp[0m
+[2.626s] [ 75%] [32m[1mLinking CXX executable /home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_subscriber_udp[0m
+[2.758s] [ 87%] [32m[1mLinking CXX executable /home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar_udp[0m
+[2.856s] [100%] [32m[1mLinking CXX executable /home/xmedia/ros2_foxy/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar[0m
+[2.910s] [100%] Built target unilidar_subscriber_udp
+[2.961s] [100%] Built target unilidar_publisher_udp
+[3.010s] [100%] Built target example_lidar_udp
+[3.102s] [100%] Built target example_lidar
+[3.143s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_sdk -- -j4 -l4

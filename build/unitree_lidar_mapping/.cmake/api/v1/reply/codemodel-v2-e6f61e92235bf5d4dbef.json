@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "unitree_lidar_mapping",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_tf_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_tf_node-Release-5aa283812d6c17e18a23.json",
+					"name" : "lidar_imu_tf_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_mapping_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_mapping_node-Release-eff2563eeb1c5b9544d7.json",
+					"name" : "lidar_mapping_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-76c15c81b46c181a029e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_lidar_mapping_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_lidar_mapping_uninstall-Release-042284546cac3b679783.json",
+					"name" : "unitree_lidar_mapping_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xmedia/ros2_foxy/build/unitree_lidar_mapping",
+		"source" : "/home/xmedia/ros2_foxy/src/unitree_lidar_mapping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

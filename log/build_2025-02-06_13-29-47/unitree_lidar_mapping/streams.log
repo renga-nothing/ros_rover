@@ -1,0 +1,27 @@
+[0.049s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_mapping -- -j4 -l4
+[0.199s] [ 50%] Built target lidar_imu_tf_node
+[0.247s] [100%] Built target lidar_mapping_node
+[0.273s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_mapping -- -j4 -l4
+[0.276s] Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/unitree_lidar_mapping
+[0.305s] -- Install configuration: "Release"
+[0.306s] -- Execute custom install script
+[0.308s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_mapping_node
+[0.309s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/launch/lidar_mapping_launch.py
+[0.309s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/config/mapping_config.rviz
+[0.309s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/lib/unitree_lidar_mapping/lidar_imu_tf_node
+[0.309s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_mapping
+[0.313s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_mapping
+[0.313s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.sh
+[0.314s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/ament_prefix_path.dsv
+[0.314s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.sh
+[0.314s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/environment/path.dsv
+[0.314s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.bash
+[0.314s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.sh
+[0.314s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.zsh
+[0.314s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/local_setup.dsv
+[0.314s] -- Symlinking: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.dsv
+[0.346s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/ament_index/resource_index/packages/unitree_lidar_mapping
+[0.346s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig.cmake
+[0.346s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/cmake/unitree_lidar_mappingConfig-version.cmake
+[0.348s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/unitree_lidar_mapping/share/unitree_lidar_mapping/package.xml
+[0.354s] Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/unitree_lidar_mapping

@@ -1,0 +1,2 @@
+Invoking command in '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk': /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_sdk -- -j4 -l4
+Invoked command in '/home/xmedia/ros2_foxy/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/unitree_lidar_sdk -- -j4 -l4

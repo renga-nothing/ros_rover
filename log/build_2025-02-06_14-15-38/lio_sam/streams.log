@@ -1,0 +1,270 @@
+[0.046s] Invoking command in '/home/xmedia/ros2_foxy/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/lio_sam -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/lio_sam
+[0.082s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.125s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.130s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.638s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.659s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.671s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.009s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.113s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.432s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.433s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.846s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.981s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.126s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[2.425s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[2.448s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.468s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.221s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[3.257s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[3.284s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.285s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.306s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[3.452s] -- The imported target "vtkParseOGLExt" references the file
+[3.453s]    "/usr/bin/vtkParseOGLExt-7.1"
+[3.454s] but this file does not exist.  Possible reasons include:
+[3.455s] * The file was deleted, renamed, or moved to another location.
+[3.455s] * An install or uninstall procedure did not complete successfully.
+[3.456s] * The installation package was faulty and contained
+[3.457s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.458s] but not all the files it references.
+[3.458s] 
+[3.459s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[3.460s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[3.460s] but this file does not exist.  Possible reasons include:
+[3.460s] * The file was deleted, renamed, or moved to another location.
+[3.460s] * An install or uninstall procedure did not complete successfully.
+[3.460s] * The installation package was faulty and contained
+[3.460s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.460s] but not all the files it references.
+[3.461s] 
+[3.461s] -- The imported target "vtk" references the file
+[3.461s]    "/usr/bin/vtk"
+[3.461s] but this file does not exist.  Possible reasons include:
+[3.461s] * The file was deleted, renamed, or moved to another location.
+[3.461s] * An install or uninstall procedure did not complete successfully.
+[3.461s] * The installation package was faulty and contained
+[3.461s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.461s] but not all the files it references.
+[3.461s] 
+[3.461s] -- The imported target "pvtk" references the file
+[3.462s]    "/usr/bin/pvtk"
+[3.462s] but this file does not exist.  Possible reasons include:
+[3.462s] * The file was deleted, renamed, or moved to another location.
+[3.462s] * An install or uninstall procedure did not complete successfully.
+[3.462s] * The installation package was faulty and contained
+[3.462s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.462s] but not all the files it references.
+[3.462s] 
+[3.487s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.495s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[3.495s] ** WARNING ** io features related to pcap will be disabled
+[3.495s] ** WARNING ** io features related to png will be disabled
+[3.512s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[3.521s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.529s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[3.547s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[3.555s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.572s] -- looking for PCL_COMMON
+[3.573s] -- looking for PCL_KDTREE
+[3.573s] -- looking for PCL_OCTREE
+[3.575s] -- looking for PCL_SEARCH
+[3.575s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.576s] -- looking for PCL_FILTERS
+[3.577s] -- looking for PCL_2D
+[3.578s] -- looking for PCL_GEOMETRY
+[3.579s] -- looking for PCL_IO
+[3.579s] -- looking for PCL_FEATURES
+[3.580s] -- looking for PCL_ML
+[3.581s] -- looking for PCL_SEGMENTATION
+[3.582s] -- looking for PCL_VISUALIZATION
+[3.583s] -- looking for PCL_SURFACE
+[3.584s] -- looking for PCL_REGISTRATION
+[3.584s] -- looking for PCL_KEYPOINTS
+[3.585s] -- looking for PCL_TRACKING
+[3.587s] -- looking for PCL_RECOGNITION
+[3.590s] -- looking for PCL_STEREO
+[3.590s] -- looking for PCL_APPS
+[3.592s] -- looking for PCL_IN_HAND_SCANNER
+[3.593s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.594s] -- looking for PCL_OUTOFCORE
+[3.595s] -- looking for PCL_PEOPLE
+[3.624s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.43") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic 
+[3.627s] -- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include
+[3.633s] -- Found Eigen: /usr/include/eigen3  
+[3.633s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.634s] -- Found OpenMP_C: -fopenmp  
+[3.635s] -- Found OpenMP_CXX: -fopenmp  
+[3.636s] -- Found OpenMP: TRUE   
+[3.663s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.961s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.744s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.745s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.779s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.779s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.779s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.514s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.528s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.534s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.542s] -- Configured cppcheck include dirs: /home/xmedia/ros2_foxy/src/lio_sam/include/lio_sam
+[5.542s] -- Configured cppcheck exclude dirs and/or files: 
+[5.547s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.547s] -- Configured cpplint exclude dirs and/or files: 
+[5.548s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.549s] -- Added test 'lint_cmake' to check CMake code style
+[5.550s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.557s] -- Added test 'uncrustify' to check C / C++ code style
+[5.557s] -- Configured uncrustify additional arguments: 
+[5.558s] -- Added test 'xmllint' to check XML markup files
+[5.566s] -- Configuring done
+[6.012s] -- Generating done
+[6.329s] -- Build files have been written to: /home/xmedia/ros2_foxy/build/lio_sam
+[6.361s] Invoked command in '/home/xmedia/ros2_foxy/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/xmedia/ros2_foxy/src/lio_sam -DCMAKE_INSTALL_PREFIX=/home/xmedia/ros2_foxy/install/lio_sam
+[6.363s] Invoking command in '/home/xmedia/ros2_foxy/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/lio_sam -- -j4 -l4
+[6.456s] [  8%] Built target lio_sam__rosidl_generator_c
+[6.470s] [ 10%] Built target lio_sam__cpp
+[6.527s] [ 19%] Built target lio_sam__rosidl_typesupport_c
+[6.531s] [ 27%] Built target lio_sam__rosidl_typesupport_introspection_c
+[6.534s] [ 36%] Built target lio_sam__rosidl_typesupport_cpp
+[6.551s] [ 44%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[6.585s] [ 53%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[6.610s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[6.655s] [ 61%] Built target lio_sam
+[6.728s] [ 63%] Built target lio_sam__py
+[6.810s] [ 68%] Built target lio_sam_mapOptimization
+[6.893s] [ 72%] Built target lio_sam_imuPreintegration
+[6.894s] [ 76%] Built target lio_sam_featureExtraction
+[6.919s] [ 82%] Built target lio_sam__python
+[6.937s] [ 87%] Built target lio_sam_imageProjection
+[6.994s] [ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[7.006s] [ 95%] Built target lio_sam__rosidl_typesupport_c__pyext
+[7.011s] [100%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[7.035s] Invoked command in '/home/xmedia/ros2_foxy/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/xmedia/ros2_foxy/build/lio_sam -- -j4 -l4
+[7.037s] Invoking command in '/home/xmedia/ros2_foxy/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/lio_sam
+[7.055s] -- Install configuration: "Release"
+[7.060s] -- Execute custom install script
+[7.061s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[7.061s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/cloud_info.h
+[7.061s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__functions.h
+[7.061s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.h
+[7.061s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.h
+[7.061s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[7.062s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__functions.h
+[7.062s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.h
+[7.062s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.h
+[7.062s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/save_map.h
+[7.062s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/library_path.sh
+[7.063s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[7.064s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[7.064s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.064s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[7.065s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[7.067s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[7.067s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.067s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[7.067s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[7.068s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[7.068s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.069s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[7.070s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/cloud_info.hpp
+[7.070s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__builder.hpp
+[7.072s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.hpp
+[7.073s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__traits.hpp
+[7.074s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.hpp
+[7.074s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.074s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__builder.hpp
+[7.074s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.hpp
+[7.075s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__traits.hpp
+[7.075s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.hpp
+[7.075s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/save_map.hpp
+[7.076s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[7.076s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[7.076s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[7.077s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[7.077s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py
+[7.078s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/__init__.py
+[7.078s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/_cloud_info.py
+[7.079s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/__init__.py
+[7.079s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/_save_map.py
+[7.080s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[7.081s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[7.081s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[7.082s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__python.so
+[7.082s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[7.083s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[7.083s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[7.084s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[7.084s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[7.084s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[7.085s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//launch/run.launch.py
+[7.086s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[7.090s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[7.090s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[7.090s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[7.090s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[7.090s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[7.091s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[7.091s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[7.091s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[7.091s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[7.091s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[7.091s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[7.092s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[7.092s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[7.092s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[7.092s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[7.092s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[7.092s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/doc/system.png
+[7.093s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/params.yaml
+[7.093s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[7.093s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[7.093s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[7.094s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[7.094s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[7.095s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[7.096s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/include/lio_sam/utility.hpp
+[7.096s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[7.096s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[7.097s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[7.097s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[7.098s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/path.sh
+[7.098s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/environment/path.dsv
+[7.099s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/local_setup.bash
+[7.099s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/local_setup.sh
+[7.099s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/local_setup.zsh
+[7.100s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/local_setup.dsv
+[7.100s] -- Symlinking: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/package.dsv
+[7.117s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[7.118s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[7.118s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.118s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[7.119s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[7.119s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.119s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.120s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.120s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[7.121s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[7.121s] -- Up-to-date symlink: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/package.xml
+[7.122s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[7.123s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[7.123s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[7.124s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[7.124s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[7.159s] Compiling '/home/xmedia/ros2_foxy/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py'...
+[7.164s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport.cmake
+[7.164s] -- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport-release.cmake
+[7.164s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[7.164s] -- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[7.167s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[7.167s] -- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[7.167s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cppExport.cmake
+[7.167s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[7.168s] -- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[7.168s] -- Up-to-date: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[7.168s] -- Installing: /home/xmedia/ros2_foxy/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[7.175s] Invoked command in '/home/xmedia/ros2_foxy/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/xmedia/ros2_foxy/build/lio_sam
